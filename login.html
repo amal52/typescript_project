@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion Enseignant</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Connexion Enseignant</h1>
+        <form id="signin-form">
+            <div>
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" placeholder="Nom d'utilisateur" required />
+            </div>
+            <div>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" placeholder="Mot de passe" required />
+            </div>
+            <button type="submit">Se connecter</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="login.js"></script> 
+</html>
